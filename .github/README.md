@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-eventbridge`](https://www.npmjs.com/package/@aws-sdk/client-eventbridge/v/3.907.0).
+[`@aws-sdk/client-eventbridge`](https://www.npmjs.com/package/@aws-sdk/client-eventbridge/v/3.908.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-eventbridge@3.907.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-eventbridge@3.908.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-W8kXqSVI2ndg71ziHun50yJU2QbUwkZPIUO1ws5/V/YgUGEN1GuTRfOy6j/N9KUT
+sha384-FjUK9UCnseQN00Dd7GhenC26frlYo4v4RfaTjyAAF8w9jBiKC1PdRuZxAbhTez3Y
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-eventbridge": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-eventbridge@3.907.0/index.min.mjs"
+            "@aws-sdk/client-eventbridge": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-eventbridge@3.908.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-eventbridge@3.907.0/index.min.mjs": "sha384-W8kXqSVI2ndg71ziHun50yJU2QbUwkZPIUO1ws5/V/YgUGEN1GuTRfOy6j/N9KUT"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-eventbridge@3.908.0/index.min.mjs": "sha384-FjUK9UCnseQN00Dd7GhenC26frlYo4v4RfaTjyAAF8w9jBiKC1PdRuZxAbhTez3Y"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-eventbridge": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-eventbridge@3.907.0/index.min.mjs"
+                        "@aws-sdk/client-eventbridge": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-eventbridge@3.908.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-eventbridge@3.907.0/index.min.mjs": "sha384-W8kXqSVI2ndg71ziHun50yJU2QbUwkZPIUO1ws5/V/YgUGEN1GuTRfOy6j/N9KUT"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-eventbridge@3.908.0/index.min.mjs": "sha384-FjUK9UCnseQN00Dd7GhenC26frlYo4v4RfaTjyAAF8w9jBiKC1PdRuZxAbhTez3Y"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.907.0`)
+* Always pin to a specific version (`@3.908.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-eventbridge/blob/refs/tags/3.907.0/LICENSE
+https://github.com/cloud-sdk-builds/client-eventbridge/blob/refs/tags/3.908.0/LICENSE
 ```
 
 ---
